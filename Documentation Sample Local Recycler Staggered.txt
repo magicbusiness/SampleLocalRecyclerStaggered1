@@ -1,0 +1,9 @@
+To use local recycler staggered
+1. Make file object to store data then implement it in Kotlin file
+2. Next make modal, layout, and adapter that will be later implement in Kotlin file.
+    At file kotlin make sure layout manager is StaggeredGridLayoutManager
+3. For layout make sure parent view and image view is
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+Note: if you want to use staggered view, make sure you add photo or image with different width and height
